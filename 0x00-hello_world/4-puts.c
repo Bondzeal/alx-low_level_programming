@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /*
- * main is the entry text
- * program ends with 0 which means success
+ * main -  entry text
+ * retun is  0 which means success
  */ 
 int main(void) 
 {
