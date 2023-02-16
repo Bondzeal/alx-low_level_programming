@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
-  main is the entry text
-  program ends with 0 which means success
+/* main is the entry text
+ * program ends with 0 which means success
  */ 
 int main(void) 
 {
