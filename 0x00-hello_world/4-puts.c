@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
- * main -  entry text
- * retun is  0 which means success
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
  */ 
 int main(void) 
 {
