@@ -8,15 +8,11 @@
  */
 int main(void)
 {
-	/* Assigning 'a' as initital alphabet */
-	char alphabet;
-	alphabet = 'a';
-	putchar("Lowercase alphabets:\n");
+	char lowercase;
 
-	while(alphabet <= 'z') 
-	{
-		putchar("%c",alphabet);
-		alphabet ++;
-	}
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
+		putchar(lowercase);
+	putchar('\n');
+
 	return (0);
 }
