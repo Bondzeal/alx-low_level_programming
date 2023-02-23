@@ -4,12 +4,10 @@
 /**
  * main - entry point
  *
- * Description: Print 1 to 100
- *              Print fizz for multiples of 3
- *              Print Buzz for multiples of 5
- *              Print FizzBuzz for multples of both 3 and 5
+ * Description: Print 1 to 100, Fizz for multiples of 3,
+ * Buzz for multiples of 5, and FizzBuzz for multiplesof both
+ *
  * Return: Always 0
- */
 
 int main(void)
 {
