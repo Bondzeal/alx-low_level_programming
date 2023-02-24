@@ -8,6 +8,7 @@
  * Buzz for multiples of 5, and FizzBuzz for multiplesof both
  *
  * Return: Always 0
+ */
 
 int main(void)
 {
