@@ -34,6 +34,6 @@ int _atoi(char *s)
 		b++;
 	}
 
-	ni *= min;
+	ni *= emm;
 	return (ni);
 }
