@@ -11,15 +11,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	while (((*s1 != '\0') && (*s2 != '\0')) && (*s1 == *s2))
+/* This is to return 0 if both strings are equal */
+	while (*s1 == *s2)
 	{
+		if (*s1 == '\0')
+		{
+			return (0);
+		}
 		s1++;
 		s2++;
-	}
-/* This is to return 0 if both strings are equal */
-	if (*s1 == *s2)
-	{
-		return (0);
 	}
 /* This is to say that if both strings are mot equal, then continue to print something else */
 	else
