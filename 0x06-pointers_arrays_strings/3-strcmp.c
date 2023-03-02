@@ -16,7 +16,7 @@ int _strcmp(char *s1, char *s2)
 		s1++;
 		s2++;
 	}
-/** This is to return 0 if both strings are equal **/
+/* This is to return 0 if both strings are equal */
 	if (*s1 == *s2)
 	{
 		return (0);
