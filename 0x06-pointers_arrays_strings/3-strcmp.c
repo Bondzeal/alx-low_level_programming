@@ -20,6 +20,5 @@ int _strcmp(char *s1, char *s2)
 		s1++;
 		s2++;
 	}
-/* This is to say that if both strings are mot equal, then continue to print something else */
 		return (*s1 - *s2);
 }
