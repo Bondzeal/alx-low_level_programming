@@ -6,7 +6,6 @@
  *
  * Return: A pointer to the resulting string, dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
@@ -15,7 +14,6 @@ char *_strncat(char *dest, char *src, int n)
 /* i is the null terminator index */
 	while (dest[i] != '\0')
 		i++;
-
 /* Null terminating replacement by append ie src string */
 	while (src[j] != src[n])
 	{
