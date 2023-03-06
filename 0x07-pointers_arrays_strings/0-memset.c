@@ -7,7 +7,6 @@
  *
  * Return: A pointer to the memory area s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a = 0;
