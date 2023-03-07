@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_diagsums - printing the sums of two diagonals of a sqare matrix
@@ -19,13 +18,4 @@ void print_diagsums(int *a, int size)
 		sum2 += a[i];
 
 	printf("%d, %d\n", sum1, sum2);
-int i = 0, maxsize = size * size, sum1 = 0, sum = 0;
-
-for (; i < maxsize; i += size + 1)
-s 1 += a[i];
-
-for (i = size - 1; i < maxsize - 1; i += size - 1)
-sum2 += a[i];
-
-printf("%d, %d\n", sum1, sum2);
-}}
+}
