@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _sqrt_recursion - returns the natural square root of a number
+ * power_operation - returns the natural square root of a number
  * @n: input number
  * @i: iterator
  * Return: -1 if n does not have square root
