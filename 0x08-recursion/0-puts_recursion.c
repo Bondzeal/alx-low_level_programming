@@ -2,8 +2,7 @@
 /**
  * _puts_recursion - Prints a string, followed by a new line
  * @s: String to check
- *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
 {
