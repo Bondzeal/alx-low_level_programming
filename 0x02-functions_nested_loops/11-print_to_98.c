@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - Prints all natural numbers from n to 98,
- * 		 separated by a comma, followed by a space
+ *		separated by a comma, followed by a space
  * @n: Starting number
  */
 
