@@ -2,7 +2,8 @@
 
 /**
  * puts2 - Function prints every character of a string, starting
- * 	starting with the first character, followed by a new line
+ *	with the first character, followed by a new line
+ * @str: String inputted
  *
  * Return: Always 0
  */
