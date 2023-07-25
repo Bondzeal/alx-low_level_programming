@@ -4,7 +4,7 @@
  * _atoi - Function converts string to an integer
  * @s: String taken into consideration
  *
- * Return - Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int _atoi(char *s)
@@ -40,5 +40,5 @@ int _atoi(char *s)
 
 	if (f == 0)
 		return (0);
-	return (n);
+	return (num);
 }
