@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strmcpy - Function copies a string
+ * _strncpy - Function copies a string
  * @dest: Destination string
  * @src: String source
  * @n: Number of bytes to copy
@@ -11,7 +11,7 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i; 
+	int i;
 /*Intializing variable */
 	i = 0;
 /* Using the while loop */
