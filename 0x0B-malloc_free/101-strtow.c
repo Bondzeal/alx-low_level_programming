@@ -8,7 +8,6 @@
  */
 
 int count_word(char *s)
-
 {
 	int flag, mac, mal;
 
@@ -23,8 +22,9 @@ int count_word(char *s)
 			flag = 1;
 			mal++;
 		}
-		return (mal);
 	}
+	return (mal);
+}
 
 /**
  **strtow - Function splits strings into words
